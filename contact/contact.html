@@ -7,7 +7,7 @@
 <meta name="keywords" content="simple #1, template, simpletemplates.org" />
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/unique" type="text/css"/> 
 <link rel="stylesheet" type="text/css" href="../style.css" />
-<title>Simple Template #1 - simpletemplates.org</title>
+<title>Contact Me</title>
 </head>
 <body>
 <div id="wrap">
@@ -34,14 +34,19 @@
 </div>
 
 <div id="content">
-<h2>How to contact me!</h2>
-<form action="thankyou.html" method="get" name="thankyou">
-	Name:
-	<br><input type="text" name="fullname">
-	<br>Email:
-	<br><input type="text" name="email">
-	<br>Comments:
-	<br><input type="text" name="comments">
+<h2>Get in Contact with Me!</h2>
+<div id = "errorMessages"></div>
+
+<form action="thankyou.html" method="get" name="thankyou" onsubmit="return ValidateForm();">
+	<label for="fullname">Full Name:</lable>
+	<br><input type="text" id="fullname">
+	
+	<br><label for="email">Email:</label>
+	<br><input type="text" id="email">
+	
+	<br><label for="comments">Comments:</label>
+	<br><input type="text" id="comments">
+	
 	<br><input type="submit" value="Submit">
 
 </form>
@@ -51,6 +56,10 @@
 </div>
 
 <div class="clear"> </div>
+
+
+
+
 
 <div id="footer">
 
@@ -83,5 +92,7 @@ Design by <a href="http://www.simpletemplates.org">Simple Website Templates</a>
 </div>
 
 </div>
+
+<script src="contactjava.js"></script>
 </body>
 </html>
