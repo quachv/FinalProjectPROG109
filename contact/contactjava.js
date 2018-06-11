@@ -22,5 +22,5 @@ function ValidateForm(){
 	
 	document.getElementByID("errorMessages").innerHTML = errorMessages;
 
-	return(validFullName && validEmail && validComment)
+	return(validFullName && validEmail && validComment);
 }
