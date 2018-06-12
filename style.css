@@ -116,6 +116,11 @@ a:hover {
 	margin: 15px;
 }
 
+#dinoimg {
+	float: right;
+	margin: 10px;
+}
+
 .cleft { 
 	float: left; 
 	width: 280px; 
