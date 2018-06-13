@@ -38,15 +38,10 @@
 <div id = "errorMessages"></div>
 
 <form action="thankyou.html" method="get" name="thankyou" onsubmit="return ValidateForm();">
-	<label for="fullname">Full Name:</lable>
-	<br><input type="text" id="fullname">
-	
-	<br><label for="email">Email:</label>
-	<br><input type="text" id="email">
-	
-	<br><label for="comments">Comments:</label>
-	<br><input type="text" id="comments">
-	
+	Full Name: <input type ="text" name="fullname" required>
+	Email: <input type ="text" name="email" required>
+	Comments: <input type ="text" name="comments" required>
+
 	<br><input type="submit" value="Submit">
 
 </form>
