@@ -1,3 +1,2 @@
 var todaysDate = new Date();
-
-document.getElementByID("datefooter").innerHTML = todaysDate;
+	document.getElementById("datefooter").innerHTML = todaysDate;
